@@ -19,6 +19,7 @@ con.connect((err) => {
     console.log("connected !!");
   }
 });
+
 app.post(
   "/addSchool",
   [
@@ -51,11 +52,11 @@ app.post(
 );
 
 function calculateDistance(lat1, lon1, lat2, lon2) {
-  const R = 6371; // Radius of Earth in kilometers
-  const phi1 = lat1 * (Math.PI / 180); // Convert latitude from degrees to radians
-  const phi2 = lat2 * (Math.PI / 180); // Convert latitude from degrees to radians
-  const deltaPhi = (lat2 - lat1) * (Math.PI / 180); // Latitude difference in radians
-  const deltaLambda = (lon2 - lon1) * (Math.PI / 180); // Longitude difference in radians
+  const R = 6371;
+  const phi1 = lat1 * (Math.PI / 180);
+  const phi2 = lat2 * (Math.PI / 180);
+  const deltaPhi = (lat2 - lat1) * (Math.PI / 180);
+  const deltaLambda = (lon2 - lon1) * (Math.PI / 180);
 
   const a =
     Math.sin(deltaPhi / 2) * Math.sin(deltaPhi / 2) +
