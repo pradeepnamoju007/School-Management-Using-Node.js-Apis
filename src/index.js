@@ -98,10 +98,11 @@ app.get("/listSchools", (req, res) => {
   });
 });
 
-app.listen(3000, (err) => {
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, (err) => {
   if (err) {
     console.log(err);
   } else {
-    console.log("Server running on port 3000");
+    console.log(`Server running on port ${PORT}`);
   }
 });
