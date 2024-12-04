@@ -9,7 +9,11 @@ The School API is a RESTful service that allows users to manage school data. It 
 - Add new schools with details like name, address, and location.
 - Retrieve a list of schools based on latitude and longitude.
 - Easy-to-use API for frontend integration.
+## Postman Collection
 
+You can test the API using the [Postman collection](https://www.postman.com/modren-kalams/workspace/modren-kalams-workspace/collection/40185482-ecfbd6fd-5946-41b3-902c-ca4cf84a0009?action=share&creator=40185482&active-environment=40185482-25ff0850-8775-4841-af71-21d5572ad188) provided.
+
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/modren-kalams/workspace/modren-kalams-workspace/collection/40185482-ecfbd6fd-5946-41b3-902c-ca4cf84a0009?action=share&creator=40185482&active-environment=40185482-25ff0850-8775-4841-af71-21d5572ad188)
 ## Technologies Used
 
 - Node.js
